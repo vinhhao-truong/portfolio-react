@@ -1,0 +1,7 @@
+@import "../variables.scss";
+
+.ExpandableCard {
+  min-width: 15rem;
+  @include flex-row();
+  
+}

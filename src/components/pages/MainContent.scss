@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import "../variables.scss";
+
+.MainContent {
+  height: 100vh;
+  @include flex-column(center, center);
+  font-family: "Fira Code", monospace;
+  overflow: hidden;
+  z-index: 1;
+  h2 {
+    font-size: 30px;
+  }
+  .Pad {
+    @include flex-column(center, center);
+    position: relative;
+    max-height: 90vh;
+    height: 45rem;
+    max-width: 95%;
+    width: 76rem;
+    border: solid 1px none;
+    border-radius: 15px;
+    box-shadow: 7px 10px 5px rgba(#000, 0.1);
+    background: linear-gradient(
+      30deg,
+      $color-light-blue,
+      $color-green,
+      $color-blue
+    );
+
+    h1 {
+      font-family: $font-kanit;
+    }
+
+    &__cover,
+    &__content {
+      height: 90%;
+      width: 95%;
+    }
+
+    &__cover {
+      background-color: $dracula-fg;
+      color: $dracula-orange;
+      @include flex-column();
+      svg {
+        width: 6rem;
+        height: 6rem;
+        cursor: pointer;
+        &:hover {
+          transition: 0.1s ease-in;
+          transform: scale(1.5);
+        }
+        &:active {
+          transition: 1s ease-in;
+          transform: scale(5);
+          opacity: 0.2;
+        }
+      }
+      &:hover {
+        p {
+          transition: 0.1s ease-in;
+          visibility: none;
+          opacity: 0;
+        }
+      }
+    }
+
+    &__content {
+      background-color: $dracula-bg;
+      color: $dracula-fg;
+      width: 92%;
+      height: 92%;
+      overflow: auto;
+      @include flex-row(space-between, flex-start);
+      .pad-nav {
+        width: 100%;
+        height: 6%;
+        list-style: none;
+        @include flex-row(space-between, center);
+        & > li {
+          position: relative;
+          height: 100%;
+          width: 25%;
+          @include flex-row(center, center);
+          a {
+            @include flex-row(center, center);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            height: 100%;
+            background-color: $dracula-line;
+            color: $dracula-orange;
+            font-size: 18px;
+            text-decoration: none;
+          }
+          &:hover {
+            filter: brightness(90%);
+          }
+        }
+        @media screen and (max-width: 900px) {
+          font-size: 12px;
+          & > li {
+            a {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+      .pad-main {
+        height: 90%;
+        .dr-yellow {
+          color: $dracula-yellow;
+        }
+        .dr-pink {
+          color: $dracula-pink;
+        }
+        .dr-purple {
+          color: $dracula-purple;
+        }
+        .dr-green {
+          color: $dracula-green;
+        }
+        .dr-cmt {
+          color: $dracula-cmt;
+        }
+
+        
+      }
+    }
+  }
+}

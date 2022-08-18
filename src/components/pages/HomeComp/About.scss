@@ -1,0 +1,106 @@
+@import "../../variables.scss";
+
+.About {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  .about-main-content,
+  .about-sub-content {
+    @media screen and (max-width: 900px) {
+      padding: 0.2rem !important;
+      & > p, .quote {
+        font-size: 10px;
+        margin-top: 0.5rem !important;
+        img {
+          width: 0.8rem !important;
+          height: 0.8rem !important;
+        }
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      h2 {
+        font-size: 15px;
+      }
+    }
+  }
+  .about-main-content {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    padding: 1rem;
+    width: 62%;
+    height: 100%;
+    max-width: 80rem;
+    & > p {
+      margin-top: 3rem;
+
+      img {
+        vertical-align: middle;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      overflow: auto;
+    }
+  }
+  .border {
+    background-color: $dracula-cmt;
+    width: 1px;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 70%;
+  }
+  .about-sub-content {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    h2 {
+      text-align: center;
+    }
+    .quote {
+      width: 100%;
+      padding: 0 1rem;
+      position: absolute;
+      top: 50%;
+      // .loading,
+      // .no-quote {
+        
+      // }
+      &__content {
+        width: 100%;
+        font-style: italic;
+      }
+      &__author {
+        margin-top: 1rem;
+        text-align: end;
+      }
+      @media screen and (max-width: 900px) {
+        top: 30%;
+        padding: 0 1.5rem !important;
+      }
+      @media screen and (max-width: 400px) {
+        top: 30%;
+        padding: 0 1rem !important;
+      }
+    }
+  }
+  svg {
+    position: absolute;
+    transform: scale(0.2) translate(25rem, 25rem);
+    @media screen and (max-width: 1200px) {
+      opacity: 0;
+      visibility: hidden;
+      transform: scale(0.15);
+      top: -10%;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="101px" viewBox="0 0 100 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>mono</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="glyph-on-light" sketch:type="MSArtboardGroup" transform="translate(-97.000000, -99.000000)" fill="#fe6d73">
+            <g id="mono" sketch:type="MSLayerGroup" transform="translate(97.000000, 99.800000)">
+                <g id="logo-copy" sketch:type="MSShapeGroup">
+                    <path d="M88.3394506,82.0968099 C95.6178062,73.4120775 100,62.2177968 100,50 C100,37.7437439 95.5901742,26.5174578 88.270632,17.8212511 L88.270632,17.8212511 L80.4553917,25.6364914 C85.80217,32.3115132 89,40.78231 89,50 C89,59.1791542 85.828852,67.6176472 80.5223377,74.279697 L88.3394506,82.0968099 L88.3394506,82.0968099 Z" id="attachment"></path>
+                    <path d="M84.2163432,86.4589839 C75.2720219,94.8564365 63.2366828,100 50,100 C22.3857625,100 0,77.6142375 0,50 C0,22.3857625 22.3857625,1.13686838e-13 50,1.13686838e-13 C63.1983248,1.13686838e-13 75.2022585,5.11379605 84.1385074,13.4680944 L76.3546493,21.2519525 C69.4138659,14.8856019 60.1606984,11 50,11 C28.4608948,11 11,28.4608948 11,50 C11,71.5391052 28.4608948,89 50,89 C60.1990671,89 69.4837363,85.0849972 76.4331793,78.67582 L84.2163432,86.4589839 L84.2163432,86.4589839 Z" id="c"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

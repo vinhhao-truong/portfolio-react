@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+.RightNav {
+  &__content {
+    width: 100%;
+    position: sticky;
+    top: 90vh;
+  }  
+}

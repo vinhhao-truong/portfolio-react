@@ -1,0 +1,24 @@
+@import '../variables.scss';
+
+.LeftNav {
+  position: sticky;
+  align-self: flex-start;
+  width: max-content;
+  top: 5vh;
+  left: 5vw;
+  text-decoration: none;
+  a {
+    svg {
+      color: $color-green;
+      height: 3rem;
+      width: 3rem;
+      &:hover {
+        transition: 0.2s ease-in-out;
+        transform: scale(1.2);
+      }
+      &:active {
+        color: $color-blue;
+      }
+    } 
+  }
+}

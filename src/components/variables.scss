@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+$color-white: #f1faee;
+$color-red: #fe6d73;
+$color-yellow: #ffcb77;
+$color-green: #17c3b2;
+$color-light-blue: #87cefa;
+$color-blue: #227c9d;
+$color-grey: #adb5bd;
+$color-dark-grey: #6c757d;
+
+$dracula-bg: #282a36;
+$dracula-line: #44475a;
+$dracula-fg: #f8f8f2;
+$dracula-cmt: #6272a4;
+$dracula-cyan: #8be9fd;
+$dracula-green: #50fa7b;
+$dracula-orange: #ffb86c;
+$dracula-pink: #ff79c6;
+$dracula-purple: #bd93f9;
+$dracula-red: #ff5555;
+$dracula-yellow: #f1fa8c;
+
+$font-nunito-sans: 'Nunito Sans', sans-serif;
+$font-oswald: 'Oswald', sans-serif;
+$font-kanit: 'Kanit', sans-serif;
+
+@mixin flex-row($justify: center, $align: center, $wrap: wrap) {
+  display: flex;
+  flex-flow: row $wrap;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-column($justify: center, $align: center, $wrap: wrap) {
+  display: flex;
+  flex-flow: column $wrap;
+  justify-content: $justify;
+  align-items: $align;
+}
