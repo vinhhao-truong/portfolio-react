@@ -31,7 +31,7 @@ function App() {
         <Route path="/project" element={<ProjectsOutline />}>
           <Route path="/project/:detail" element={<ProjectDetail />} />
         </Route>
-        <Route path="*" element={<Error404 />} exact />
+        {/* <Route path="*" element={<Error404 />} exact /> */}
       </Routes>
     </div>
   );
