@@ -41,7 +41,7 @@ const Projects = React.forwardRef((props, ref) => {
       title: "This Portfolio",
       content:
         "A portfolio is inspired by the Dracula Theme on VS Code.",
-      url: "/",
+      url: "https://vinhhao-truong.github.io/portfolio-react/",
       icon: portfolioIcon
     },
   ];
