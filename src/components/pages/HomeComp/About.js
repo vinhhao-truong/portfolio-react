@@ -12,7 +12,8 @@ import sassIcon from "../../icons/sass.png";
 import nodeIcon from "../../icons/node.png";
 import expressIcon from "../../icons/express.png";
 import mongodbIcon from "../../icons/mongodb.png";
-import { ReactComponent as AboutSVG } from "../../svg/about.svg"
+import reduxIcon from "../../icons/redux.png";
+import { ReactComponent as AboutSVG } from "../../svg/about.svg";
 
 import Circle from "../../UI/Circle";
 import ExpandableCard from "../../UI/ExpandableCard";
@@ -85,7 +86,8 @@ const About = React.forwardRef((props, ref) => {
           :CSS, <Icon src={sassIcon} alt="sassIcon" />
           :SASS, <Icon src={jsIcon} alt="jsIcon" />
           :JavaScript, <Icon src={reactIcon} alt="reactIcon" />
-          :ReactJS, <Icon src={nodeIcon} alt="nodeIcon" />
+          :ReactJS, <Icon src={reduxIcon} alt="reduxIcon" />
+          :Redux, <Icon src={nodeIcon} alt="nodeIcon" />
           :NodeJS, <Icon src={expressIcon} alt="expressIcon" />
           :ExpressJS, <Icon src={mongodbIcon} alt="mongodbIcon" />
           :MongoDB
@@ -120,7 +122,7 @@ const About = React.forwardRef((props, ref) => {
           )}
         </div>
       </div>
-        <AboutSVG />
+      <AboutSVG />
     </>
   );
 });
